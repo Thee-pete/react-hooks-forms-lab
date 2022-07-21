@@ -5,7 +5,7 @@ function ItemForm({ onItemFormSubmit }) {
 
   const [name, setName] = useState("");
   const [category, setCategory] =useState("Produce")
-  const [item, setNewItem] = useState([]);
+ 
 
   function onChangeName(event){
     setName(event.target.value)
